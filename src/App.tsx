@@ -1,4 +1,4 @@
-import { Instagram, Send, Phone, Copy, Check, User } from 'lucide-react';
+import { Instagram, Send, Phone, Copy, Check } from 'lucide-react';
 import { useState } from 'react';
 
 const instagramUrl = 'https://instagram.com/bnymin_mhmdi';
@@ -43,22 +43,13 @@ export default function App() {
       </div>
 
       <main className="relative mx-auto flex min-h-screen w-full max-w-2xl flex-col items-center justify-center px-6 py-16">
-        {/* هدر */}
-        <section className="animate-fade-up flex flex-col items-center text-center" style={{ animationDelay: '0ms' }}>
-          <div className="flex h-24 w-24 items-center justify-center rounded-full border border-white/10 bg-gradient-to-br from-emerald-500/20 to-sky-500/10 shadow-2xl shadow-emerald-500/10">
-            <User className="h-11 w-11 text-emerald-400" strokeWidth={1.5} />
-          </div>
-          <h1 className="mt-8 text-3xl font-black leading-tight tracking-tight text-white sm:text-4xl">
-            دکتر محمدی برزگر
-          </h1>
-          <p className="mt-4 max-w-md text-base font-light leading-8 text-neutral-400">
-            هیچ فرد خاصی نیستم و فقط برای امتحان سایت این کارها را کرده‌ام. خوشحال می‌شوم از راه‌های زیر با من در
-            ارتباط باشید.
-          </p>
-        </section>
+        <h1
+          className="animate-fade-up text-center text-6xl font-black leading-tight tracking-tight text-white sm:text-7xl md:text-8xl"
+        >
+          دکتر بنیامین
+        </h1>
 
-        {/* راه‌های ارتباطی */}
-        <section className="mt-12 w-full space-y-4">
+        <section className="mt-14 w-full space-y-4">
           <a
             href={instagramUrl}
             target="_blank"
@@ -113,13 +104,6 @@ export default function App() {
             <CopyButton text={phoneNumber} />
           </div>
         </section>
-
-        <footer
-          className="animate-fade-up mt-12 text-center text-xs font-light text-neutral-600"
-          style={{ animationDelay: '480ms' }}
-        >
-          ساخته‌شده برای ارتباط با دکتر محمدی برزگر
-        </footer>
       </main>
     </div>
   );
