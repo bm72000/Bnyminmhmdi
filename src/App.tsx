@@ -49,7 +49,7 @@ export default function App() {
             <User className="h-11 w-11 text-emerald-400" strokeWidth={1.5} />
           </div>
           <h1 className="mt-8 text-3xl font-black leading-tight tracking-tight text-white sm:text-4xl">
-            بنیامین محمدی برزگر
+            دکتر محمدی برزگر
           </h1>
           <p className="mt-4 max-w-md text-base font-light leading-8 text-neutral-400">
             هیچ فرد خاصی نیستم و فقط برای امتحان سایت این کارها را کرده‌ام. خوشحال می‌شوم از راه‌های زیر با من در
@@ -118,7 +118,7 @@ export default function App() {
           className="animate-fade-up mt-12 text-center text-xs font-light text-neutral-600"
           style={{ animationDelay: '480ms' }}
         >
-          ساخته‌شده برای ارتباط با بنیامین محمدی برزگر
+          ساخته‌شده برای ارتباط با دکتر محمدی برزگر
         </footer>
       </main>
     </div>
